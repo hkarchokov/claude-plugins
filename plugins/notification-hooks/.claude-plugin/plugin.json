@@ -1,0 +1,20 @@
+{
+  "name": "notification-hooks",
+  "version": "1.0.0",
+  "description": "Optional audio and TTS notifications when Claude needs user attention",
+  "author": {
+    "name": "Hristo Karchokov",
+    "email": "hkarchokov@gmail.com"
+  },
+  "repository": "https://github.com/hkarchokov/claude-plugins",
+  "keywords": [
+    "notifications",
+    "audio",
+    "tts",
+    "hooks",
+    "alerts",
+    "sound"
+  ],
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

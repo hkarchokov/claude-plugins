@@ -1,0 +1,22 @@
+{
+  "name": "orchestrator-core",
+  "version": "1.0.0",
+  "description": "Multi-agent orchestration with Phase 0-4 workflow for complex development tasks",
+  "author": {
+    "name": "Hristo Karchokov",
+    "email": "hkarchokov@gmail.com"
+  },
+  "repository": "https://github.com/hkarchokov/claude-plugins",
+  "keywords": [
+    "orchestration",
+    "multi-agent",
+    "workflow",
+    "investigation",
+    "implementation",
+    "quality",
+    "memory",
+    "agents",
+    "planning"
+  ],
+  "license": "MIT"
+}

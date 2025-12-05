@@ -1,0 +1,86 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "hkarchokov-claude-plugins",
+  "version": "1.0.0",
+  "description": "Modular multi-agent orchestration marketplace with optional observability and notifications",
+  "owner": {
+    "name": "Hristo Karchokov",
+    "email": "hkarchokov@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hkarchokov/claude-plugins"
+  },
+  "plugins": [
+    {
+      "name": "orchestration",
+      "description": "Multi-agent orchestration for codebase investigation with smart routing and specialized analysis",
+      "version": "3.0.0",
+      "author": {
+        "name": "Hristo Karchokov",
+        "email": "hkarchokov@gmail.com"
+      },
+      "source": "./plugins/orchestration",
+      "category": "workflow",
+      "tags": [
+        "orchestration",
+        "multi-agent",
+        "investigation",
+        "lookup",
+        "clarification",
+        "workflow",
+        "agents",
+        "codebase-analysis"
+      ]
+    },
+    {
+      "name": "notification-hooks",
+      "description": "Simple audio notification when Claude needs your attention",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hristo Karchokov",
+        "email": "hkarchokov@gmail.com"
+      },
+      "source": "./plugins/notification-hooks",
+      "category": "utilities",
+      "tags": [
+        "notifications",
+        "audio",
+        "hooks",
+        "alerts",
+        "sound"
+      ]
+    },
+    {
+      "name": "observability-hooks",
+      "description": "Tool usage tracking, event logging, and session telemetry",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hristo Karchokov",
+        "email": "hkarchokov@gmail.com"
+      },
+      "source": "./plugins/observability-hooks",
+      "category": "utilities",
+      "tags": [
+        "observability",
+        "tracking",
+        "logging",
+        "telemetry",
+        "hooks",
+        "monitoring"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "workflow",
+      "name": "Workflow",
+      "description": "Orchestration and development workflows"
+    },
+    {
+      "id": "utilities",
+      "name": "Utilities",
+      "description": "Optional enhancements and tooling"
+    }
+  ]
+}

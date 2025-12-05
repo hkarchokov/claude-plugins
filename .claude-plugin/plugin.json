@@ -1,0 +1,21 @@
+{
+  "name": "multi-agent-orchestrator",
+  "version": "1.0.0",
+  "description": "Multi-agent orchestration system with Phase 0-4 workflow, featuring specialized agents, slash commands, and automated hooks",
+  "author": {
+    "name": "Hristo Karchokov",
+    "email": "hkarchokov@gmail.com"
+  },
+  "repository": "https://github.com/hkarchokov/claude-plugins",
+  "keywords": [
+    "orchestration",
+    "multi-agent",
+    "workflow",
+    "development",
+    "automation",
+    "subagents",
+    "productivity"
+  ],
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

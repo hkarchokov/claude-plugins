@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/hooks.schema.json",
+  "version": "1.0.0",
+  "hooks": {
+    "SessionStart": [
+      {
+        "name": "platform-initializer",
+        "description": "Initializes orchestration context on session start",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run ${CLAUDE_PLUGIN_ROOT}/hooks/session_start.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

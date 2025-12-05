@@ -1,0 +1,22 @@
+{
+  "name": "orchestration",
+  "version": "4.0.0",
+  "description": "Multi-agent codebase investigation using built-in Explore agents with Scout → Investigate → Validate pattern",
+  "author": {
+    "name": "Hristo Karchokov",
+    "email": "hkarchokov@gmail.com"
+  },
+  "repository": "https://github.com/hkarchokov/claude-plugins",
+  "keywords": [
+    "orchestration",
+    "multi-agent",
+    "investigation",
+    "lookup",
+    "clarification",
+    "workflow",
+    "agents",
+    "codebase-analysis"
+  ],
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
+}

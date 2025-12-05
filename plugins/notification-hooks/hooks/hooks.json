@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/hooks.schema.json",
+  "version": "1.0.0",
+  "hooks": {
+    "Notification": [
+      {
+        "name": "notification-sound",
+        "description": "Audio notification when Claude needs attention",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay -v 0.4 /System/Library/Sounds/Ping.aiff",
+            "timeout": 2,
+            "platform": "darwin"
+          },
+          {
+            "type": "command",
+            "command": "paplay --volume=26214 /usr/share/sounds/freedesktop/stereo/complete.oga 2>/dev/null || aplay -q /usr/share/sounds/alsa/Front_Center.wav 2>/dev/null || true",
+            "timeout": 2,
+            "platform": "linux"
+          }
+        ]
+      }
+    ]
+  }
+}
